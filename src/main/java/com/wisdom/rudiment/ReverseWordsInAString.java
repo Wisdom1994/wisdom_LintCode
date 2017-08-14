@@ -1,4 +1,4 @@
-package com.wisdom.code;
+package com.wisdom.rudiment;
 /**
  *  翻转字符串
  *  给定一个字符串，逐个翻转字符串中的每个单词的每个字母。
