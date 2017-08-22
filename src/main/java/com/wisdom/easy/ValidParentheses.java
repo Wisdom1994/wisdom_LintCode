@@ -10,7 +10,7 @@ import java.util.Stack;
 public class ValidParentheses {
     /**
      * main 方法测试
-     * @param args
+     * @param args Main函数
      */
     public static void main(String[] args) {
         ValidParentheses validParentheses = new ValidParentheses();
@@ -33,7 +33,7 @@ public class ValidParentheses {
      * @param s 需要判断的字符串
      * @return 符合要求：true  否则 false
      */
-    public boolean isValidParentheses(String s) {
+    private boolean isValidParentheses(String s) {
         //write you code here
         if (0 != s.length() % 2) {
             return false;
@@ -62,7 +62,6 @@ public class ValidParentheses {
             }
             if ("{".equals(stack.peek()) && (ch[i] + "").equals("}")) {
                 stack.pop();
-                continue;
             } else {
                 stack.push(ch[i] + "");
             }
