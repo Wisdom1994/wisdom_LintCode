@@ -30,8 +30,8 @@ public class ValidParentheses {
      *      于是，想到了一个简单的，LIFO（后进先出）的数据结构，队列
      *      将字符串分为数组，按照顺序存储到队列中，存储过程中，如果出现于栈顶元素相匹配的括号，则去除栈顶元素，否则存储到栈中
      *      最后，判断栈是否为空 Stack.isEmpty()方法，将其返回就好
-     * @param s
-     * @return
+     * @param s 需要判断的字符串
+     * @return 符合要求：true  否则 false
      */
     public boolean isValidParentheses(String s) {
         //write you code here
