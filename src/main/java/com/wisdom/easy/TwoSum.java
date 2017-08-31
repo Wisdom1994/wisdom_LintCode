@@ -19,7 +19,6 @@ public class TwoSum {
         System.out.println(Arrays.toString(x));
     }
     /**
-     *
      * @param numbers 被计算的数组
      * @param target 和
      * @return numbers中符合条件的参数的下标组成的数组
