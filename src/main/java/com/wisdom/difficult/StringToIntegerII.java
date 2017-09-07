@@ -23,52 +23,38 @@ public class StringToIntegerII {
      * 2.确定字符串格式正确，符合数字要求——可以使用match（正则）进行匹配；
      * 3.确定字符整数位的数字长度，对过长者进行处理。去最大正值或者最小负值——判断其为11位十进制整数，使用Long进行存储
      * 4，对结果进行处理，正值向下取整，负值向上取整
+     *      ---想法还是过于简单，未能处理更多的情况，比如空格，数字后面有字母等等
+     *
+     * 换一种思路：字符串处理之后，我们直接对字符串中的数字进行处理（包括+-号），遍历字符串直到后面没有数字或者字符串结束为止
      */
-    public int atoi(String str) {
+    private int atoi(String str) {
         if (null == str || 0 == str.length()) {
             return 0;
         }
-        String[] strs = str.replaceAll(" +", " ").split(" ");
-        for(String xx : strs) {
-            if (!"".equals(xx)) {
-                str = xx.replaceAll("[^\\d.-]", "");
-                break;
-            }
+        str = str.trim();
+        char flag = '+';
+        int i = 0;
+        if (str.charAt(0) == '+'){
+            i++;
         }
-        if (!str.matches("-?\\d+\\.\\d+") && !str.matches("-?\\d+")) {
-            return 0;
+        if (str.charAt(0) == '-'){
+            i++;
+            flag = '-';
         }
-        if (str.contains(".")) {
-            String num = str.split("\\.")[0];
-            if (num.length() > 12) {
-                if (num.startsWith("\\-")) {
-                    return -2147483648;
-                } else {
-                    return 2147483647;
-                }
-            }
-            if (num.startsWith("\\-")) {
-                Long longNum = Long.parseLong(num);
-                return longNum < -2147483648L ? -2147483648 : Integer.parseInt(num);
-            } else {
-                Long longnum = Long.parseLong(num);
-                return longnum > 2147183647L ? 2147483647 : Integer.parseInt(num);
-            }
-        } else {
-            if (str.length() > 12) {
-                if (str.startsWith("\\-")) {
-                    return -2147483648;
-                } else {
-                    return 2147483647;
-                }
-            }
-            if (str.startsWith("\\-")) {
-                Long longNum = Long.parseLong(str);
-                return longNum < -2147483648L ? -2147483648 : Integer.parseInt(str);
-            } else {
-                Long longnum = Long.parseLong(str);
-                return longnum > 2147483647L ? 2147483647 : Integer.parseInt(str);
-            }
+        double res = 0;
+        while (i < str.length() && str.charAt(i) <= '9' && str.charAt(i) >= '0'){
+            res = res * 10 + str.charAt(i) - '0';
+            i++;
         }
+        if (flag == '-'){
+            res = -1 * res;
+        }
+        if (res > Integer.MAX_VALUE) {
+            return Integer.MAX_VALUE;
+        }
+        if (res < Integer.MIN_VALUE) {
+            return Integer.MIN_VALUE;
+        }
+        return (int)res;
     }
 }
