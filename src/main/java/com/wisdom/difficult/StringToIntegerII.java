@@ -11,7 +11,7 @@ package com.wisdom.difficult;
 public class StringToIntegerII {
     public static void main(String[] args) {
         StringToIntegerII stringToIntegerII = new StringToIntegerII();
-        String str = "1.0";
+        String str = "10";
         System.out.println(stringToIntegerII.atoi(str));
     }
 
@@ -31,9 +31,11 @@ public class StringToIntegerII {
         if (null == str || 0 == str.length()) {
             return 0;
         }
-        str = str.trim();
+        str = str.trim(); //去空格
         char flag = '+';
         int i = 0;
+
+        //判断开始的符号
         if (str.charAt(0) == '+'){
             i++;
         }
@@ -43,7 +45,7 @@ public class StringToIntegerII {
         }
         double res = 0;
         while (i < str.length() && str.charAt(i) <= '9' && str.charAt(i) >= '0'){
-            res = res * 10 + str.charAt(i) - '0';
+            res = res * 10 + str.charAt(i)+'0';
             i++;
         }
         if (flag == '-'){
