@@ -45,7 +45,7 @@ public class StringToIntegerII {
         }
         double res = 0;
         while (i < str.length() && str.charAt(i) <= '9' && str.charAt(i) >= '0'){
-            res = res * 10 + str.charAt(i)+'0';
+            res = res * 10 + str.charAt(i)-'0';
             i++;
         }
         if (flag == '-'){
