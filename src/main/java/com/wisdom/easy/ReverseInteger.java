@@ -5,10 +5,13 @@ package com.wisdom.easy;
  * http://www.lintcode.com/zh-cn/problem/reverse-integer/
  */
 public class ReverseInteger {
-    public int reverseInteger(int n) {
-        if (n == 0) {
-            return 0;
-        }
+    public static void main(String[] args) {
+        ReverseInteger reverseInteger = new ReverseInteger();
+        int n = 11626126;
+        int result = reverseInteger.reverseInteger(n);
+        System.out.println(result);
+    }
+    private int reverseInteger(int n) {
         int flag = 1;
         char[] ch = (n + "").toCharArray();
         if (ch[0] == '-') {
@@ -20,7 +23,11 @@ public class ReverseInteger {
                 sb.append(ch[x]);
             }
         }
-        Integer inte = Integer.parseInt(sb.toString());
-        return inte * flag;
+        Long aLong = Long.parseLong(sb.toString()) * flag;
+        if (aLong > Integer.MAX_VALUE || aLong < Integer.MIN_VALUE) {
+            return 0;
+        } else {
+            return Integer.parseInt(sb.toString()) * flag;
+        }
     }
 }
