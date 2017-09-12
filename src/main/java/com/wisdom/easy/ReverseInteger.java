@@ -1,7 +1,7 @@
 package com.wisdom.easy;
 
 /**
- * LintCode 413 反转函数
+ * LintCode 413 反转整数
  * http://www.lintcode.com/zh-cn/problem/reverse-integer/
  */
 public class ReverseInteger {
