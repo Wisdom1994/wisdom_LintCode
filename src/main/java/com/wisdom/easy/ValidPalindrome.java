@@ -14,20 +14,22 @@ public class ValidPalindrome {
         System.out.println(b);
     }
     private boolean isPalindrome(String s) {
-        if (0 == s.length()) {
-            return true;
-        }
-        String str = s.replace("[^\\w]", "").replace("-", "");
-        char[] ch = str.toCharArray();
-        boolean b = false;
-        for (int i = 0; i < ch.length; i++) {
-            if (ch[i] != ch[ch.length - 1 - i]){
-                b = false;
-                break;
-            } else {
-                b = true;
+        StringBuilder stringBuilder = new StringBuilder();
+        char[] ch = s.toCharArray();
+        for(char c : ch) {
+            if (Character.isLetterOrDigit(c)) {
+                stringBuilder.append(c);
             }
         }
-        return b;
+        if (0 == stringBuilder.length()) {
+            return true;
+        }
+        char[] chars = stringBuilder.toString().toLowerCase().toCharArray();
+        for (int i = 0; i < chars.length / 2; i++) {
+            if (chars[i] != chars[chars.length - 1 - i]) {
+                return false;
+            }
+        }
+        return true;
     }
 }
