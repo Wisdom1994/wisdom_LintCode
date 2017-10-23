@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4bf28d0-1a77-4a16-bb35-2c4e316b0c05" name="Default" comment="(413)easy--&gt;reverse-integer(反转整数)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java" />
+    <list default="true" id="e4bf28d0-1a77-4a16-bb35-2c4e316b0c05" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java" afterPath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="Median.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="354">
+              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -76,6 +76,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/SpaceReplacement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java" />
       </list>
     </option>
   </component>
@@ -359,7 +360,7 @@
       <workItem from="1505351122940" duration="9041000" />
       <workItem from="1505435747970" duration="1227000" />
       <workItem from="1506391013292" duration="1923000" />
-      <workItem from="1508724638048" duration="54000" />
+      <workItem from="1508724638048" duration="437000" />
     </task>
     <task id="LOCAL-00001" summary="LintCode爬坑代码">
       <created>1502690207115</created>
@@ -550,11 +551,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506391751360</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="(80)easy--&gt;median(中位数)">
+      <created>1508724730391</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1508724730391</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74241000" />
+    <option name="totallyTimeSpent" value="74624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -614,7 +622,8 @@
     <MESSAGE value="(413)easy--&gt;reverse-integer(反转整数)" />
     <MESSAGE value="(415)valid-palindrome(有效回文串)" />
     <MESSAGE value="(121)easy--&gt;space-replacement(空格替换)" />
-    <option name="LAST_COMMIT_MESSAGE" value="(121)easy--&gt;space-replacement(空格替换)" />
+    <MESSAGE value="(80)easy--&gt;median(中位数)" />
+    <option name="LAST_COMMIT_MESSAGE" value="(80)easy--&gt;median(中位数)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -897,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="354">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding />
         </state>
       </provider>
