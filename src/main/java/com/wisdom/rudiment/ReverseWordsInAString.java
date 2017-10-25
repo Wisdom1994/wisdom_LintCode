@@ -9,16 +9,6 @@ package com.wisdom.rudiment;
  *
  */
 public class ReverseWordsInAString {
-
-    public static void main(String[] args) {
-        ReverseWordsInAString rw = new ReverseWordsInAString();
-        String s = "   public     static void       main ";
-        String str = rw.reverseWords(s);
-        System.out.println(str);
-    }
-/**
- *  思路：先整体调换位置，然后将调换完位置的字符串按“ ”进行拆分，再把拆分后的字符串调换位置
- */
     /*
     public String reverseWords(String s) {
         if (s.equals(" ")) {
@@ -49,8 +39,8 @@ public class ReverseWordsInAString {
 
     /**
      * 喵了个咪的，我想多了，我以为是单独调换每个单词中字母的位置~
-     * @param s
-     * @return
+     * @param s 入参：需要被处理的字符串
+     * @return  处理过的字符串
      *
      * 完全可以使用栈来完成
      */
@@ -70,7 +60,7 @@ public class ReverseWordsInAString {
                     stringBuffer.append(str[str.length - 1 - y] + " ");
                 }
             }
-            return stringBuffer.toString();
+            return stringBuffer.toString().trim();
         }
     }
 }

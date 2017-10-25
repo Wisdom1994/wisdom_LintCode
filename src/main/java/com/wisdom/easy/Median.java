@@ -20,7 +20,7 @@ public class Median {
      * @param nums 寻找中位数的数组
      * @return median 中位数
      */
-    private int median_1(int[] nums) {
+    public int median_1(int[] nums) {
         // write your code here
         //Bubble Sort
         for (int i = 0; i< nums.length; i++) {
