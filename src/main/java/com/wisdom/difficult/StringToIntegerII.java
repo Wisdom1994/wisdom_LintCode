@@ -27,7 +27,7 @@ public class StringToIntegerII {
      *
      * 换一种思路：字符串处理之后，我们直接对字符串中的数字进行处理（包括+-号），遍历字符串直到后面没有数字或者字符串结束为止
      */
-    private int atoi(String str) {
+    public int atoi(String str) {
         if (null == str || 0 == str.length()) {
             return 0;
         }
