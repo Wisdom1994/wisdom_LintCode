@@ -25,7 +25,7 @@ public class ReverseWordsInAString {
             }
             //将字符串中单个单词转换位置
             String[] str = new String(ch2).replaceAll(" +"," ").split(" ");
-            StringBuffer sb = new StringBuffer();
+            stringBuilder sb = new stringBuilder();
             for (int y = 0; y < str.length; y ++) {
                 if (y < str.length - 2) {
                     sb.append(str[str.length - 1 - y]+" ");
@@ -52,15 +52,15 @@ public class ReverseWordsInAString {
             return "";
         } else {
             String[] str = s.replaceAll(" +", " ").split(" ");
-            StringBuffer stringBuffer = new StringBuffer();
+            StringBuilder stringBuilder = new StringBuilder();
             for (int y = 0; y < str.length; y++) {
                 if (y == str.length - 1) {
-                    stringBuffer.append(str[str.length - 1 - y]);
+                    stringBuilder.append(str[str.length - 1 - y]);
                 } else {
-                    stringBuffer.append(str[str.length - 1 - y] + " ");
+                    stringBuilder.append(str[str.length - 1 - y]).append(" ");
                 }
             }
-            return stringBuffer.toString().trim();
+            return stringBuilder.toString().trim();
         }
     }
 }
