@@ -10,10 +10,6 @@ package com.wisdom.easy;
  * 将字符串用“ ”进行分割，然后取字符数组的最后一个元素，返回其长度
  */
 public class LengthOfLastWord {
-    public static void main(String[] args) {
-        LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
-        System.out.println(lengthOfLastWord.lengthOfLastWord("Hello world"));
-    }
     public int lengthOfLastWord(String s) {
         // write your code here
         if (0 == s.length()) {
