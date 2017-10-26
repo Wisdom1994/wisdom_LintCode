@@ -8,22 +8,19 @@ package com.wisdom.easy;
     给定 [9,9,9] 表示 999, 返回 [1,0,0,0].
  */
 public class PlusOne {
-    public static void main(String[] args) {
-
-    }
     /*
         把数组变成长整形数字，加一后转为字符串，再转为int数组。
      */
     public int[] plusOne(int[] digits) {
-        StringBuffer stringBuffer = new StringBuffer();
+        StringBuilder stringBuilder = new StringBuilder();
 
         if (0 == digits[0]) {
             return new int[]{1};
         }
-        for (int i = 0; i < digits.length; i++) {
-            stringBuffer.append(digits[i] + "");
+        for (int digit : digits) {
+            stringBuilder.append(digit).append("");
         }
-        Long x = Long.parseLong(stringBuffer.toString());
+        Long x = Long.parseLong(stringBuilder.toString());
         char[] z = (x + 1 + "").toCharArray();
         int [] s = new int[z.length];
         for (int j = 0; j < z.length; j++) {
