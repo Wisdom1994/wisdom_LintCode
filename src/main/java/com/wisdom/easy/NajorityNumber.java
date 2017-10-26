@@ -10,11 +10,11 @@ import java.util.ArrayList;
  */
 public class NajorityNumber {
 
-    public static void main(String[] args) {
-        NajorityNumber najorityNumber = new NajorityNumber();
-        ArrayList<Integer> nums = new ArrayList<>();
-        najorityNumber.majorityNumber(nums);
-    }
+    /**
+     * 因为整个数组的定义已经明确定义了主元素的数量，所以：
+     * @param nums 传入的数组
+     * @return 主元素数组
+     */
     public int majorityNumber(ArrayList<Integer> nums) {
         // write your code
         int i = 0;

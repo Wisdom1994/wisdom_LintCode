@@ -2,16 +2,11 @@ package com.wisdom.easy;
 
 public class PalindromeNumber {
 
-    public static void main(String[] args) {
-        PalindromeNumber palindromeNumber = new PalindromeNumber();
-        int s = 1234554321;
-        int s1 = 12314155;
-        boolean a = palindromeNumber.palindromeNumber(s);
-        boolean b = palindromeNumber.palindromeNumber(s1);
-        System.out.println(a);
-        System.out.println(b);
-    }
-
+    /**
+     * 遍历这个数组，分别从前往后对比，如果不同就返回一个 false
+     * @param num 传入参数
+     * @return boolean类型：是否为回文数
+     */
     public boolean palindromeNumber(int num) {
         String s = num + "";
         char[] ch = s.toCharArray();
