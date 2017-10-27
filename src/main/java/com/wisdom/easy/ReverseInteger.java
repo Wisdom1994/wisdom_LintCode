@@ -5,13 +5,12 @@ package com.wisdom.easy;
  * http://www.lintcode.com/zh-cn/problem/reverse-integer/
  */
 public class ReverseInteger {
-    public static void main(String[] args) {
-        ReverseInteger reverseInteger = new ReverseInteger();
-        int n = 11626126;
-        int result = reverseInteger.reverseInteger(n);
-        System.out.println(result);
-    }
-    private int reverseInteger(int n) {
+    /**
+     *
+     * @param n 需要被反转的整数
+     * @return 反转后的参数
+     */
+    public int reverseInteger(int n) {
         int flag = 1;
         char[] ch = (n + "").toCharArray();
         if (ch[0] == '-') {
