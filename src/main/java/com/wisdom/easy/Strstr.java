@@ -5,13 +5,7 @@ package com.wisdom.easy;
  * @createDate 2017-9-5 今天，我就是来凑个数github提交数的，要不然空荡荡的多难看~
  */
 public class Strstr {
-    public static void main(String[] args) {
-        Strstr strstr = new Strstr();
-        String source = "";
-        String target = "";
-        System.out.println(strstr.strStr(source, target));
-    }
-    private int strStr(String source, String target) {
+    public int strStr(String source, String target) {
         // write your code here
         if (null == source || null == target) {
             return -1;

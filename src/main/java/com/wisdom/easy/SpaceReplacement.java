@@ -10,14 +10,6 @@ package com.wisdom.easy;
  * 替换空格之后，参数中的字符串需要变为"Mr%20John%20Smith"，并且把新长度 17 作为结果返回。
  */
 public class SpaceReplacement {
-    public static void main(String[] args) {
-        SpaceReplacement spaceReplacement = new SpaceReplacement();
-        char[] string = new char[]{'h', 'e', ' ', 'l', 'l', ' ', 'o', ' ', ' '};
-        int length = string.length;
-        System.out.println(spaceReplacement.replaceBlank(string, length));
-    }
-    //write you code here
-
     /**
      * 思路：方法一：我可以先对字符数组进行处理，之后再计算数组的长度
      *       方法二：先计算长度，然后再获取处理之后的字符数组
@@ -26,7 +18,7 @@ public class SpaceReplacement {
      * @param length 要被修改字符数组的长度
      * @return 新字符串的长度
      */
-    private int replaceBlank(char[] string, int length) {
+    public int replaceBlank(char[] string, int length) {
         int newLength = length;
         int space  = 0;
 

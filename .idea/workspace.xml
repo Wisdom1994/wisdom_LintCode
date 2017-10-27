@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4bf28d0-1a77-4a16-bb35-2c4e316b0c05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/LengthOfLastWordTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wisdom/easy/LengthOfLastWord.class" afterPath="$PROJECT_DIR$/target/classes/com/wisdom/easy/LengthOfLastWord.class" />
+    <list default="true" id="e4bf28d0-1a77-4a16-bb35-2c4e316b0c05" name="Default" comment="PlusOne.test">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/SpaceReplacementTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/StrstrTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/LengthOfLastWord.java" afterPath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/LengthOfLastWord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/SpaceReplacement.java" afterPath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/SpaceReplacement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Strstr.java" afterPath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Strstr.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,30 +23,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LengthOfLastWord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/LengthOfLastWord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LengthOfLastWordTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/LengthOfLastWordTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="73" lean-forward="false" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,10 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
+      <GitPushTagMode />
     </option>
   </component>
   <component name="GradleLocalSettings">
@@ -80,16 +55,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/code/ReverseWordsInAString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/PalindromeNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/NajorityNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/ValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Strstr.java" />
         <option value="$PROJECT_DIR$/src/test/java/testDaily.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/ValidPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/SpaceReplacement.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/MdianTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -100,6 +69,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/difficult/StringToInteger_II_Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/LengthOfLastWordTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/LengthOfLastWord.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/NajorityNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/NajorityNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/PalindromeNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/PalindromeNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/PlusOneTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/ReverseIntegerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/ReverseInteger.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/HashFunctionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/HashFunction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/SpaceReplacementTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/SpaceReplacement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Strstr.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/StrstrTest.java" />
       </list>
     </option>
   </component>
@@ -109,10 +92,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="66" />
-    <option name="y" value="5" />
-    <option name="width" value="1565" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="117" />
+    <option name="y" value="18" />
+    <option name="width" value="1564" />
     <option name="height" value="986" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -133,9 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,15 +163,6 @@
               <item name="wisdom_LintCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="wisdom_LintCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
-              <item name="rudiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wisdom_LintCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wisdom_LintCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -225,7 +197,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,15 +224,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LengthOfLastWordTest.lengthOfLastWordTest">
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StrstrTest.strStrTest">
+    <configuration name="HashFunctionTest.hashCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wisdom.test.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="wisdom_LintCode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wisdom.test.easy" />
+      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.easy.HashFunctionTest" />
+      <option name="METHOD_NAME" value="hashCodeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SpaceReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wisdom.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.wisdom.easy.LengthOfLastWord" />
+      <option name="MAIN_CLASS_NAME" value="com.wisdom.easy.SpaceReplacement" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -270,7 +269,7 @@
       <module name="wisdom_LintCode" />
       <envs />
     </configuration>
-    <configuration name="LengthOfLastWordTest.lengthOfLastWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpaceReplacementTest.replaceBlankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wisdom.test.easy.*" />
@@ -281,8 +280,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.wisdom.test.easy" />
-      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.easy.LengthOfLastWordTest" />
-      <option name="METHOD_NAME" value="lengthOfLastWordTest" />
+      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.easy.SpaceReplacementTest" />
+      <option name="METHOD_NAME" value="replaceBlankTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -295,7 +294,26 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MedianTest.medianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Strstr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wisdom.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.wisdom.easy.Strstr" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="wisdom_LintCode" />
+      <envs />
+    </configuration>
+    <configuration name="StrstrTest.strStrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wisdom.test.easy.*" />
@@ -306,58 +324,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.wisdom.test.easy" />
-      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.easy.MedianTest" />
-      <option name="METHOD_NAME" value="medianTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ReverseWordsInAStringTest.reverseWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wisdom.test.rudiment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="wisdom_LintCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wisdom.test.rudiment" />
-      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.rudiment.ReverseWordsInAStringTest" />
-      <option name="METHOD_NAME" value="reverseWordsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="StringToInteger_II_Test.stringToIntger_2_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wisdom.test.difficult.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="wisdom_LintCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wisdom.test.difficult" />
-      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.difficult.StringToInteger_II_Test" />
-      <option name="METHOD_NAME" value="stringToIntger_2_Test" />
+      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.easy.StrstrTest" />
+      <option name="METHOD_NAME" value="strStrTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -452,19 +420,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MedianTest.medianTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ReverseWordsInAStringTest.reverseWordsTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StringToInteger_II_Test.stringToIntger_2_Test" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LengthOfLastWord" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LengthOfLastWordTest.lengthOfLastWordTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HashFunctionTest.hashCodeTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SpaceReplacement" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SpaceReplacementTest.replaceBlankTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Strstr" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StrstrTest.strStrTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LengthOfLastWordTest.lengthOfLastWordTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LengthOfLastWord" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StringToInteger_II_Test.stringToIntger_2_Test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ReverseWordsInAStringTest.reverseWordsTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MedianTest.medianTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StrstrTest.strStrTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Strstr" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpaceReplacementTest.replaceBlankTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SpaceReplacement" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HashFunctionTest.hashCodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +475,11 @@
       <workItem from="1508724638048" duration="1291000" />
       <workItem from="1508836264186" duration="1468000" />
       <workItem from="1508894102797" duration="1154000" />
-      <workItem from="1508897344941" duration="6795000" />
+      <workItem from="1508897344941" duration="8941000" />
+      <workItem from="1508920223378" duration="20000" />
+      <workItem from="1508980845113" duration="1109000" />
+      <workItem from="1509003399382" duration="4255000" />
+      <workItem from="1509065578648" duration="1898000" />
     </task>
     <task id="LOCAL-00001" summary="LintCode爬坑代码">
       <created>1502690207115</created>
@@ -761,24 +733,67 @@
       <option name="project" value="LOCAL" />
       <updated>1508902495672</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="LengthOfLashWordTest.Test">
+      <created>1508911560115</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1508911560115</updated>
+    </task>
+    <task id="LOCAL-00038" summary="NajorityNumber.Test">
+      <created>1508980982089</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1508980982089</updated>
+    </task>
+    <task id="LOCAL-00039" summary="palindromeNumber.Test">
+      <created>1508981028686</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1508981028686</updated>
+    </task>
+    <task id="LOCAL-00040" summary="PlusOne.test">
+      <created>1508981062546</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1508981062546</updated>
+    </task>
+    <task id="LOCAL-00041" summary="[128]-easy-Hash Function:哈希值">
+      <created>1509066965442</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1509066965442</updated>
+    </task>
+    <task id="LOCAL-00042" summary="ReverseInteger.test">
+      <created>1509066993584</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1509066993584</updated>
+    </task>
+    <task id="LOCAL-00043" summary="ReverseInteger.test">
+      <created>1509067020981</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1509067020981</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LengthOfLastWordTest_lengthOfLastWordTest - 2017.10.25 at 14h 05m 23s.xml">
-      <configuration name="LengthOfLastWordTest.lengthOfLastWordTest" configurationId="JUnit" />
+    <history-entry file="PlusOneTest_plusOneTest - 2017.10.25 at 14h 34m 46s.xml">
+      <configuration name="PlusOneTest.plusOneTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MedianTest_medianTest - 2017.10.25 at 11h 23m 14s.xml">
-      <configuration name="MedianTest.medianTest" configurationId="JUnit" />
+    <history-entry file="PlusOneTest_plusOneTest - 2017.10.25 at 14h 39m 20s.xml">
+      <configuration name="PlusOneTest.plusOneTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseWordsInAStringTest_reverseWordsTest - 2017.10.25 at 11h 23m 26s.xml">
-      <configuration name="ReverseWordsInAStringTest.reverseWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReverseWordsInAStringTest_reverseWordsTest - 2017.10.25 at 11h 24m 47s.xml">
-      <configuration name="ReverseWordsInAStringTest.reverseWordsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReverseWordsInAStringTest_reverseWordsTest - 2017.10.25 at 11h 24m 52s.xml">
-      <configuration name="ReverseWordsInAStringTest.reverseWordsTest" configurationId="JUnit" />
+    <history-entry file="ReverseIntegerTest_reverseTest - 2017.10.26 at 15h 42m 16s.xml">
+      <configuration name="ReverseIntegerTest.reverseTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ReverseWordsInAStringTest_reverseWordsTest - 2017.10.25 at 11h 25m 36s.xml">
       <configuration name="ReverseWordsInAStringTest.reverseWordsTest" configurationId="JUnit" />
@@ -789,46 +804,61 @@
     <history-entry file="ReverseWordsInAStringTest_reverseWordsTest - 2017.10.25 at 11h 27m 36s.xml">
       <configuration name="ReverseWordsInAStringTest.reverseWordsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpaceReplacementTest_replaceBlankTest - 2017.10.27 at 09h 24m 28s.xml">
+      <configuration name="SpaceReplacementTest.replaceBlankTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="StringToInteger_II_Test_stringToIntger_2_Test - 2017.10.25 at 11h 32m 08s.xml">
       <configuration name="StringToInteger_II_Test.stringToIntger_2_Test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StringToInteger_II_Test_stringToIntger_2_Test - 2017.10.25 at 11h 33m 49s.xml">
       <configuration name="StringToInteger_II_Test.stringToIntger_2_Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StrstrTest_strStrTest - 2017.10.27 at 09h 28m 29s.xml">
+      <configuration name="StrstrTest.strStrTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84895000" />
+    <option name="totallyTimeSpent" value="94323000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="117" y="18" width="1564" height="986" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.49731183" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26190478" sideWeight="0.5021482" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27804878" sideWeight="0.50268817" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26190478" sideWeight="0.49785176" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975152" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27804878" sideWeight="0.49327958" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2631579" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28024194" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39795917" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39795917" sideWeight="0.49570355" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975152" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -868,11 +898,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LintCode爬坑代码" />
-    <MESSAGE value="判断一个数字是否为回文数" />
-    <MESSAGE value="初级——子元素，找出一个数组中最大的子元素" />
-    <MESSAGE value="LintCode 加一" />
-    <MESSAGE value="取一串字符串中的最后一个单词的长度" />
     <MESSAGE value="little change" />
     <MESSAGE value="有效括号序列" />
     <MESSAGE value="简单修改" />
@@ -892,73 +917,21 @@
     <MESSAGE value="Median.Test" />
     <MESSAGE value="ReverseWordsInAString.Test" />
     <MESSAGE value="StringToInteger_2.Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringToInteger_2.Test" />
+    <MESSAGE value="LengthOfLashWordTest.Test" />
+    <MESSAGE value="NajorityNumber.Test" />
+    <MESSAGE value="palindromeNumber.Test" />
+    <MESSAGE value="PlusOne.test" />
+    <MESSAGE value="[128]-easy-Hash Function:哈希值" />
+    <MESSAGE value="ReverseInteger.test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReverseInteger.test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/difficult/StringToIntegerII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/difficult/StringToIntegerII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/ValidPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/difficult/StringToIntegerII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/ValidPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -1087,20 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/PalindromeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/ValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
@@ -1115,40 +1074,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Strstr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testDaily.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/ValidPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/SpaceReplacement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/NajorityNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,18 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="629" column="23" lean-forward="false" selection-start-line="629" selection-start-column="23" selection-end-line="629" selection-end-column="23" />
-          <folding>
-            <element signature="e#24178#24179#0" expanded="false" />
-            <element signature="e#24230#24231#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1191,10 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#1464#1658#0" expanded="false" />
-            <element signature="e#1657#1658#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1202,9 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1212,7 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="330" column="0" lean-forward="false" selection-start-line="330" selection-start-column="0" selection-end-line="330" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,7 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,9 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1246,7 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="53" column="62" lean-forward="true" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1254,7 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,9 +1164,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/LengthOfLastWordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1272,17 +1178,130 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/NajorityNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/NajorityNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/PalindromeNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="108" column="23" lean-forward="false" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/PalindromeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/PlusOneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/ReverseInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/LengthOfLastWordTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/ReverseIntegerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="73" lean-forward="false" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        <state relative-caret-position="297">
+          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/HashFunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="69" lean-forward="false" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/SpaceReplacement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/SpaceReplacementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/HashFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/StrstrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Strstr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
