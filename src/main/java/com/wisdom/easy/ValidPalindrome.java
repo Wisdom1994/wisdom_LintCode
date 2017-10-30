@@ -6,13 +6,7 @@ package com.wisdom.easy;
  * "race a car" 不是一个回文。
  */
 public class ValidPalindrome {
-    public static void main(String[] args) {
-        ValidPalindrome validPalindrome = new ValidPalindrome();
-        String s = "ahdpgaghapsdguaweytpoaudifanvlkczxhjiougpq paoidugpawet pa";
-        boolean b = validPalindrome.isPalindrome(s);
-        System.out.println(b);
-    }
-    private boolean isPalindrome(String s) {
+    public boolean isPalindrome(String s) {
         StringBuilder stringBuilder = new StringBuilder();
         char[] ch = s.toCharArray();
         for(char c : ch) {
