@@ -9,19 +9,6 @@ import java.util.Stack;
  */
 public class ValidParentheses {
     /**
-     * main 方法测试
-     * @param args Main函数
-     */
-    public static void main(String[] args) {
-        ValidParentheses validParentheses = new ValidParentheses();
-//        boolean b = validParentheses.isValidParentheses(""); //true
-//        boolean b = validParentheses.isValidParentheses("["); //false
-//        boolean b = validParentheses.isValidParentheses("[{({})([]{})}]"); //true
-//        boolean b = validParentheses.isValidParentheses("[]{}{(}){}]["); //false
-        boolean b = validParentheses.isValidParentheses("[][]{}{}");
-        System.out.println(b);
-    }
-    /**
      * 实现：
      *      按照要求进行分析：
      *          1，如果括号数量为单数，不符合
@@ -33,7 +20,7 @@ public class ValidParentheses {
      * @param s 需要判断的字符串
      * @return 符合要求：true  否则 false
      */
-    private boolean isValidParentheses(String s) {
+    public boolean isValidParentheses(String s) {
         //write you code here
         if (0 != s.length() % 2) {
             return false;
