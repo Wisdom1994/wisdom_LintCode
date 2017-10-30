@@ -1,6 +1,5 @@
 package com.wisdom.easy;
 
-import java.util.Arrays;
 /**
  * 两数之和
  * http://www.lintcode.com/zh-cn/problem/two-sum/
@@ -11,19 +10,12 @@ import java.util.Arrays;
  * 给出 numbers = [2, 7, 11, 15], target = 9, 返回 [1, 2].
  */
 public class TwoSum {
-    public static void main(String[] args) {
-        TwoSum twoSum = new TwoSum();
-        int[] numbers = new int[]{2, 7, 8, 11};
-        int target = 9;
-        int[] x = twoSum.twoSum(numbers, target);
-        System.out.println(Arrays.toString(x));
-    }
     /**
      * @param numbers 被计算的数组
      * @param target 和
      * @return numbers中符合条件的参数的下标组成的数组
      */
-    private int[] twoSum(int[] numbers, int target) {
+    public int[] twoSum(int[] numbers, int target) {
         // write your code here
         int i;
         int j = 0;
