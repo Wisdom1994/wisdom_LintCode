@@ -10,11 +10,6 @@ package com.wisdom.easy;
  * If there are even numbers in the array, return the N/2-th number after sorted.
  */
 public class Median {
-    public static void main(String[] args) {
-        Median median = new Median();
-        int[] nums = new int[]{};
-        System.out.println(median.median_1(nums));
-    }
     /**
      * 第一种采用时间复杂度较高的方法——冒泡排序
      * @param nums 寻找中位数的数组
