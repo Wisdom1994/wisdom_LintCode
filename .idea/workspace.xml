@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4bf28d0-1a77-4a16-bb35-2c4e316b0c05" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wisdom/easy/Strstr.class" afterPath="$PROJECT_DIR$/target/classes/com/wisdom/easy/Strstr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wisdom/easy/TwoSum.class" afterPath="$PROJECT_DIR$/target/classes/com/wisdom/easy/TwoSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wisdom/easy/ValidParentheses.class" afterPath="$PROJECT_DIR$/target/classes/com/wisdom/easy/ValidParentheses.class" />
+    <list default="true" id="e4bf28d0-1a77-4a16-bb35-2c4e316b0c05" name="Default" comment="[8]easy rotate-string, 旋转字符串.test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java" afterPath="$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +20,48 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Sqrtx.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Sqrtx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlusOne.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PalindromeNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/PalindromeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RotateString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/RotateString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270">
+              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +73,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>stringBuffer</find>
+      <find>cbrt</find>
     </findStrings>
     <replaceStrings>
       <replace>stringBuilder</replace>
@@ -56,7 +96,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/code/ReverseWordsInAString.java" />
         <option value="$PROJECT_DIR$/src/test/java/testDaily.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/MdianTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/MedianTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/rudiment/ReverseWordsInAStringTest.java" />
@@ -69,7 +108,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/NajorityNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/PalindromeNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/PalindromeNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/PlusOneTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/ReverseIntegerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/ReverseInteger.java" />
@@ -86,6 +124,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/ValidParenthesesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/ValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/RotateString.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/RotateStringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/SqrtxTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/Sqrtx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java" />
       </list>
     </option>
   </component>
@@ -96,10 +141,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="171" />
-    <option name="y" value="28" />
-    <option name="width" value="1564" />
-    <option name="height" value="986" />
+    <option name="x" value="38" />
+    <option name="width" value="1757" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -119,7 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,14 +173,49 @@
             </path>
             <path>
               <item name="wisdom_LintCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom_LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom_LintCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom_LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom_LintCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom_LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom_LintCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom_LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom_LintCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom_LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom_LintCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -162,27 +241,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ValidParenthesesTest.isValidTest">
-    <configuration name="Strstr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wisdom.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.wisdom.easy.Strstr" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="wisdom_LintCode" />
-      <envs />
-    </configuration>
-    <configuration name="StrstrTest.strStrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SqrtxTest.sqrtxTest">
+    <configuration name="RotateStringTest.rotateStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wisdom.test.easy.*" />
@@ -193,8 +253,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.wisdom.test.easy" />
-      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.easy.StrstrTest" />
-      <option name="METHOD_NAME" value="strStrTest" />
+      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.easy.RotateStringTest" />
+      <option name="METHOD_NAME" value="rotateStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -207,7 +267,26 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TwoSumTest.twoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Sqrtx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wisdom.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.wisdom.easy.Sqrtx" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="wisdom_LintCode" />
+      <envs />
+    </configuration>
+    <configuration name="SqrtxTest.sqrtxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wisdom.test.easy.*" />
@@ -218,8 +297,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.wisdom.test.easy" />
-      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.easy.TwoSumTest" />
-      <option name="METHOD_NAME" value="twoSumTest" />
+      <option name="MAIN_CLASS_NAME" value="com.wisdom.test.easy.SqrtxTest" />
+      <option name="METHOD_NAME" value="sqrtxTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -364,19 +443,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Strstr" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StrstrTest.strStrTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TwoSumTest.twoSumTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ValidPalindromeTest.isPalindrome" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ValidParenthesesTest.isValidTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ValidPalindromeTest.isPalindrome" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ValidParenthesesTest.isValidTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RotateStringTest.rotateStringTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Sqrtx" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SqrtxTest.sqrtxTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ValidParenthesesTest.isValidTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ValidPalindromeTest.isPalindrome" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TwoSumTest.twoSumTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StrstrTest.strStrTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Strstr" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SqrtxTest.sqrtxTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Sqrtx" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RotateStringTest.rotateStringTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ValidParenthesesTest.isValidTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ValidPalindromeTest.isPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -426,42 +505,15 @@
       <workItem from="1509065578648" duration="4719000" />
       <workItem from="1509325516814" duration="1261000" />
       <workItem from="1509411893203" duration="2913000" />
-      <workItem from="1509446798274" duration="7000" />
-    </task>
-    <task id="LOCAL-00001" summary="LintCode爬坑代码">
-      <created>1502690207115</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1502690207115</updated>
-    </task>
-    <task id="LOCAL-00002" summary="简单修改">
-      <created>1502691507913</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1502691507913</updated>
-    </task>
-    <task id="LOCAL-00003" summary="判断一个数字是否为回文数">
-      <created>1502691629010</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1502691629010</updated>
-    </task>
-    <task id="LOCAL-00004" summary="初级——子元素，找出一个数组中最大的子元素">
-      <created>1502698547193</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1502698547193</updated>
-    </task>
-    <task id="LOCAL-00005" summary="LintCode 加一">
-      <created>1502958929617</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1502958929618</updated>
+      <workItem from="1509446798274" duration="38000" />
+      <workItem from="1509517714115" duration="3155000" />
+      <workItem from="1509585289145" duration="3489000" />
+      <workItem from="1509670745380" duration="7624000" />
+      <workItem from="1509929506706" duration="3284000" />
+      <workItem from="1510016442181" duration="2423000" />
+      <workItem from="1510102646676" duration="3576000" />
+      <workItem from="1510188909917" duration="2378000" />
+      <workItem from="1510275901392" duration="1988000" />
     </task>
     <task id="LOCAL-00006" summary="取一串字符串中的最后一个单词的长度">
       <created>1503044062707</created>
@@ -757,21 +809,70 @@
       <option name="project" value="LOCAL" />
       <updated>1509326155517</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="file change">
+      <created>1509446821878</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1509446821879</updated>
+    </task>
+    <task id="LOCAL-00049" summary="[8]easy rotate-string, 旋转字符串">
+      <created>1509518620515</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1509518620515</updated>
+    </task>
+    <task id="LOCAL-00050" summary="[8]easy rotate-string, 旋转字符串.test">
+      <created>1509520663127</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1509520663128</updated>
+    </task>
+    <task id="LOCAL-00051" summary="中位数 Median">
+      <created>1509676007837</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1509676007838</updated>
+    </task>
+    <task id="LOCAL-00052" summary="[141]easy Sqrtx, x的平方根.test">
+      <created>1509679658551</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1509679658551</updated>
+    </task>
+    <task id="LOCAL-00053" summary="[141]easy Sqrtx, x的平方根">
+      <created>1509679698104</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1509679698104</updated>
+    </task>
+    <task id="LOCAL-00054" summary="[141]Sqrtx x的平方根">
+      <created>1509687722048</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1509687722049</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReverseWordsInAStringTest_reverseWordsTest - 2017.10.25 at 11h 27m 07s.xml">
-      <configuration name="ReverseWordsInAStringTest.reverseWordsTest" configurationId="JUnit" />
+    <history-entry file="SqrtxTest_sqrtxTest - 2017.11.03 at 11h 25m 28s.xml">
+      <configuration name="SqrtxTest.sqrtxTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseWordsInAStringTest_reverseWordsTest - 2017.10.25 at 11h 27m 36s.xml">
-      <configuration name="ReverseWordsInAStringTest.reverseWordsTest" configurationId="JUnit" />
+    <history-entry file="SqrtxTest_sqrtxTest - 2017.11.03 at 11h 26m 02s.xml">
+      <configuration name="SqrtxTest.sqrtxTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpaceReplacementTest_replaceBlankTest - 2017.10.27 at 09h 24m 28s.xml">
-      <configuration name="SpaceReplacementTest.replaceBlankTest" configurationId="JUnit" />
+    <history-entry file="SqrtxTest_sqrtxTest - 2017.11.03 at 11h 26m 25s.xml">
+      <configuration name="SqrtxTest.sqrtxTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringToInteger_II_Test_stringToIntger_2_Test - 2017.10.25 at 11h 32m 08s.xml">
-      <configuration name="StringToInteger_II_Test.stringToIntger_2_Test" configurationId="JUnit" />
+    <history-entry file="SqrtxTest_sqrtxTest - 2017.11.03 at 11h 26m 43s.xml">
+      <configuration name="SqrtxTest.sqrtxTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StringToInteger_II_Test_stringToIntger_2_Test - 2017.10.25 at 11h 33m 49s.xml">
       <configuration name="StringToInteger_II_Test.stringToIntger_2_Test" configurationId="JUnit" />
@@ -793,7 +894,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101325000" />
+    <option name="totallyTimeSpent" value="129273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,28 +906,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="28" width="1564" height="986" extended-state="0" />
+    <frame x="38" y="0" width="1757" height="1038" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.49731183" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27804878" sideWeight="0.50268817" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20183486" sideWeight="0.5089227" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27804878" sideWeight="0.49327958" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2777778" sideWeight="0.48872182" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29637095" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1933373" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32439023" sideWeight="0.49570355" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22827497" sideWeight="0.49107733" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -873,13 +974,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="(56)Easy --&gt; two-sum(两数之和)" />
-    <MESSAGE value="(56)Easy--&gt;two-sum(两数之和)" />
-    <MESSAGE value="(13)Easy--&gt;Strstr(查找字符串)" />
-    <MESSAGE value="(54)difficult--&gt;string-to-integer-ii(转换字符串到整数)" />
-    <MESSAGE value="(54)difficult--&gt;string-to-integer-ii(转换字符串到整数)新思路解法" />
-    <MESSAGE value="(415)easy--&gt;valid-palindrome(有效回文串)" />
-    <MESSAGE value="(413)easy--&gt;reverse-integer(反转整数)" />
     <MESSAGE value="(415)valid-palindrome(有效回文串)" />
     <MESSAGE value="(121)easy--&gt;space-replacement(空格替换)" />
     <MESSAGE value="(80)easy--&gt;median(中位数)" />
@@ -898,64 +992,22 @@
     <MESSAGE value="TwoSum.test" />
     <MESSAGE value="ValidPalindrome.test" />
     <MESSAGE value="ValidParentheses.test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ValidParentheses.test" />
+    <MESSAGE value="file change" />
+    <MESSAGE value="[8]easy rotate-string, 旋转字符串" />
+    <MESSAGE value="[8]easy rotate-string, 旋转字符串.test" />
+    <MESSAGE value="中位数 Median" />
+    <MESSAGE value="[141]easy Sqrtx, x的平方根.test" />
+    <MESSAGE value="[141]easy Sqrtx, x的平方根" />
+    <MESSAGE value="[141]Sqrtx x的平方根" />
+    <option name="LAST_COMMIT_MESSAGE" value="[141]Sqrtx x的平方根" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/difficult/StringToIntegerII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/difficult/StringToIntegerII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/difficult/StringToIntegerII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/rudiment/ReverseWordsInAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="62" column="16" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/difficult/StringToIntegerII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/rudiment/ReverseWordsInAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/rudiment/ReverseWordsInAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/rudiment/ReverseWordsInAString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1051,13 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1139,20 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="108" column="23" lean-forward="false" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/PalindromeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1258,6 +1289,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/RotateStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Test.java" />
+    <entry file="jar://D:/Java/jdk1.8.0_141/src.zip!/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="269" column="32" lean-forward="false" selection-start-line="269" selection-start-column="32" selection-end-line="269" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Median.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_141/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="338" column="28" lean-forward="false" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wisdom/test/easy/SqrtxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/Sqrtx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/PalindromeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisdom/easy/RotateString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
