@@ -36,9 +36,7 @@ public class StringToIntegerII {
         int i = 0;
 
         //判断开始的符号
-        if (str.charAt(0) == '+'){
-            i++;
-        }
+        if (str.charAt(0) == '+') i++;
         if (str.charAt(0) == '-'){
             i++;
             flag = '-';
@@ -51,12 +49,8 @@ public class StringToIntegerII {
         if (flag == '-'){
             res = -1 * res;
         }
-        if (res > Integer.MAX_VALUE) {
-            return Integer.MAX_VALUE;
-        }
-        if (res < Integer.MIN_VALUE) {
-            return Integer.MIN_VALUE;
-        }
+        if (res > Integer.MAX_VALUE) return Integer.MAX_VALUE;
+        if (res < Integer.MIN_VALUE) return Integer.MIN_VALUE;
         return (int)res;
     }
 }
